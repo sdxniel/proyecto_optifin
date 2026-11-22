@@ -1,0 +1,7 @@
+# Ejemplo del enunciado: origen destino comision
+# dirigido: si
+CuentaA CuentaB 4.50
+CuentaA CuentaC 2.00
+CuentaB CuentaD 5.10
+CuentaC CuentaD 1.00
+CuentaD CuentaE 3.00

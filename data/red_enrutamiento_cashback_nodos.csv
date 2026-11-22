@@ -1,0 +1,11 @@
+id,tipo,nombre,x,y
+A,billetera,Yape (A),0.0,1.0
+B,billetera,Plin (B),1.6,2.2
+C,banco,Cta. BCP (C),1.6,0.0
+D,compensacion,Cámara (D),3.4,0.0
+E,banco,Cta. BBVA (E),4.8,1.1
+X,comercio,Comercio (X),6.2,2.2
+P,generico,Pasarela tarjetas (P),3.4,3.2
+ATM,atm,Red ATM,6.2,0.0
+K,agencia,Agencia Cusco (K),0.0,-1.3
+L,agencia,Agencia Lima (L),3.4,-1.6

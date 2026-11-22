@@ -1,0 +1,6 @@
+origen,destino,capacidad,costo,costo_habilitacion
+Central,Norte,600,2,40
+Central,Sur,400,3,35
+Norte,Urubamba,300,1,20
+Norte,Quillabamba,250,2,30
+Sur,Sicuani,400,2,25

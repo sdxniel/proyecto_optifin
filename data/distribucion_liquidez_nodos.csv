@@ -1,0 +1,7 @@
+id,tipo,nombre,oferta,demanda,x,y
+Central,boveda_central,Bóveda central,1000,,0.0,1.0
+Norte,boveda_regional,Bóveda reg. Norte,,,2.0,1.8
+Sur,boveda_regional,Bóveda reg. Sur,,,2.0,0.0
+Urubamba,agencia,Ag. Urubamba,,300,4.0,2.4
+Quillabamba,agencia,Ag. Quillabamba,,350,4.0,1.2
+Sicuani,agencia,Ag. Sicuani,,600,4.0,0.0

@@ -1,0 +1,13 @@
+origen,destino,capacidad,costo,costo_habilitacion
+Cusco,RNorte,450,2,40
+RNorte,Urubamba,300,1,20
+RNorte,Quillabamba,250,3,45
+RNorte,Calca,200,1,15
+Cusco,Calca,150,5,25
+Cusco,RSur,350,2,35
+RSur,Sicuani,300,2,30
+RSur,Espinar,200,3,40
+Juliaca,RSur,300,3,50
+Juliaca,Espinar,150,4,45
+Juliaca,PMaldonado,150,6,70
+Cusco,PMaldonado,100,8,90

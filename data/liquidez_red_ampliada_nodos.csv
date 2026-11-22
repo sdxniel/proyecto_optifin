@@ -1,0 +1,11 @@
+id,tipo,nombre,oferta,demanda,x,y
+Cusco,boveda_central,Bóveda Cusco,900,,0.0,1.6
+Juliaca,boveda_central,Bóveda Juliaca,600,,0.6,-1.4
+RNorte,boveda_regional,Reg. Norte,,,2.2,2.6
+RSur,boveda_regional,Reg. Sur,,,2.2,0.9
+Urubamba,agencia,Ag. Urubamba,,200,4.4,3.6
+Quillabamba,agencia,Ag. Quillabamba,,250,4.4,2.5
+Calca,agencia,Ag. Calca,,150,4.4,1.5
+Sicuani,agencia,Ag. Sicuani,,300,4.4,0.5
+Espinar,agencia,Ag. Espinar,,250,4.4,-0.5
+PMaldonado,agencia,Ag. Pto. Maldonado,,200,4.4,-1.6

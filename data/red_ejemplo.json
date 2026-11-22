@@ -1,0 +1,70 @@
+{
+  "nombre": "red_atm_cusco",
+  "dirigido": false,
+  "ponderado": true,
+  "nodos": [
+    {
+      "id": "AgPlaza",
+      "tipo": "agencia",
+      "nombre": "Agencia Plaza"
+    },
+    {
+      "id": "ATM1",
+      "tipo": "atm",
+      "nombre": "ATM San Blas"
+    },
+    {
+      "id": "ATM2",
+      "tipo": "atm",
+      "nombre": "ATM Wanchaq"
+    },
+    {
+      "id": "ATM3",
+      "tipo": "atm",
+      "nombre": "ATM Aeropuerto"
+    },
+    {
+      "id": "Servidor",
+      "tipo": "generico",
+      "nombre": "Servidor central"
+    }
+  ],
+  "aristas": [
+    {
+      "origen": "Servidor",
+      "destino": "AgPlaza",
+      "costo": 4,
+      "tiempo": 20
+    },
+    {
+      "origen": "Servidor",
+      "destino": "ATM1",
+      "costo": 6,
+      "tiempo": 35
+    },
+    {
+      "origen": "AgPlaza",
+      "destino": "ATM1",
+      "costo": 2,
+      "tiempo": 12
+    },
+    {
+      "origen": "AgPlaza",
+      "destino": "ATM2",
+      "costo": 3,
+      "tiempo": 15
+    },
+    {
+      "origen": "ATM2",
+      "destino": "ATM3",
+      "costo": 5,
+      "tiempo": 25
+    },
+    {
+      "origen": "Servidor",
+      "destino": "ATM3",
+      "costo": 9,
+      "tiempo": 40
+    }
+  ]
+}
