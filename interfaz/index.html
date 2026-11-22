@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OptiFin · Análisis y Optimización de Redes Financieras</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232F5D8C'/%3E%3Ccircle cx='9' cy='22' r='4' fill='white'/%3E%3Ccircle cx='23' cy='10' r='4' fill='white'/%3E%3Ccircle cx='23' cy='23' r='3' fill='%23A5C4E8'/%3E%3Cpath d='M9 22 L23 10 L23 23' stroke='white' stroke-width='2' fill='none'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <aside class="barra">
+    <div class="marca">
+      <div class="logo">
+        <svg viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#2F5D8C"/><circle cx="9" cy="22" r="4" fill="#fff"/><circle cx="23" cy="10" r="4" fill="#fff"/><circle cx="23" cy="23" r="3" fill="#A5C4E8"/><path d="M9 22 L23 10 L23 23" stroke="#fff" stroke-width="2" fill="none"/></svg>
+      </div>
+      <div>
+        <div class="marca-nombre">OptiFin</div>
+        <div class="marca-sub">Redes financieras</div>
+      </div>
+    </div>
+    <nav id="menu">
+      <a href="#/inicio" data-pagina="inicio"><span class="ico">⌂</span><span>Panel general</span></a>
+      <div class="menu-titulo">Módulos</div>
+      <a href="#/gestion" data-pagina="gestion"><span class="num">1</span><span>Gestión de la red</span></a>
+      <a href="#/fraude" data-pagina="fraude"><span class="num">2</span><span>Fraude y lavado</span></a>
+      <a href="#/rutas" data-pagina="rutas"><span class="num">3</span><span>Rutas y comisiones</span></a>
+      <a href="#/liquidez" data-pagina="liquidez"><span class="num">4</span><span>Liquidez a bóvedas</span></a>
+      <a href="#/evaluacion" data-pagina="evaluacion"><span class="num">5</span><span>Evaluación y pruebas</span></a>
+    </nav>
+    <div class="barra-pie">
+      <div>Programación III · Proyecto II</div>
+      <div class="tenue">Algoritmos de grafos en Python</div>
+    </div>
+  </aside>
+
+  <main>
+    <header class="cabecera">
+      <div>
+        <div class="miga" id="miga">Panel general</div>
+        <h1 id="titulo">Panel general</h1>
+        <p id="subtitulo" class="subtitulo"></p>
+      </div>
+      <div class="cabecera-der" id="cabecera-der"></div>
+    </header>
+    <section id="contenido"></section>
+  </main>
+
+  <div id="tooltip" class="tooltip"></div>
+  <div id="avisos" class="avisos"></div>
+
+  <script src="grafo.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
