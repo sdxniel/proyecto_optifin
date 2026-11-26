@@ -160,8 +160,3 @@ creciendo como V³ frente a Johnson en redes dispersas) se mantiene.
 
 Los patrones del Módulo 2 son **indicadores para revisión**. Su detección no prueba por sí sola
 fraude ni lavado de activos; la decisión corresponde a auditoría.
-
-## 9. Entrega
-
-- Marcar la versión final con un tag: `git tag -a v1.0 -m "Entrega final" && git push origin v1.0`.
-- Colocar el informe técnico en `docs/informe.pdf` y las diapositivas en `docs/`.
